@@ -105,11 +105,11 @@ const fortunes = [
   
   function changeInnerHTML() {
     const element = document.getElementById('result');
-    const randomWord = getRandomWord();
-    element.innerHTML = randomWord;
+    const randomWord = getRandomFortune();
+    document.getElementById('result').innerHTML = randomWord;
   }
   
-  const button = document.getElementById('button');
+  const button = document.getElementById('click');
   button.addEventListener('click', changeInnerHTML);
 
   
