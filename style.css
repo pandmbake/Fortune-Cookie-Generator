@@ -1,0 +1,40 @@
+body {
+    font-family: 'Yatra One', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: darkred;
+}
+
+#button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    height: 3em;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 2em;
+    background-color: darkgoldenrod;
+    width: 30em;
+    border-radius: 10px;
+}
+
+.cookie {
+    width: 27em;
+    height: auto;
+    display: flex;
+    margin: auto;    
+
+}
