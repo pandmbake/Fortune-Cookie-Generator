@@ -17,6 +17,9 @@ h1 {
     border-radius: 10px;
     box-shadow: 3px 3px;
     cursor: pointer;
+    background-color: gray;
+    color: white;
+    font-size: 1em;
 }
 
 #result {
@@ -25,10 +28,11 @@ h1 {
     align-items: center;
     justify-items: center;
     margin: auto;
-    padding: 2em;
+    padding: 1em;
     background-color: darkgoldenrod;
     width: 30em;
     border-radius: 10px;
+    height: auto;
 }
 
 .cookie {
@@ -37,4 +41,50 @@ h1 {
     display: flex;
     margin: auto;    
 
+}
+
+@media screen and (max-width: 856px) {
+#result {
+    width: 20em;
+}
+
+}
+
+@media screen and (max-width: 610px) {
+    #result {
+        width: 15em;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        
+    }
+    
+}
+
+@media screen and (max-width: 440px) {
+
+    #result {
+        width: 10em;
+        font-size: 1rem;
+    }
+
+    .cookie {
+        width: 10em;
+        height: auto;
+        display: flex;
+        margin: auto;    
+    
+    }
+
+
+}
+
+@media screen and (max-width: 206px) {
+
+    #result {
+        width: 8em;
+        font-size: 1rem;
+    }
 }
